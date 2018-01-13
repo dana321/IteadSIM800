@@ -4,7 +4,7 @@ from time import sleep
 from enum import IntEnum
 from datetime import datetime
 
-PORT="/dev/ttyAMA0"
+PORT="/dev/serial0"
 BAUD=9600
 GSM_ON=11
 GSM_RESET=12
