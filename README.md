@@ -25,6 +25,8 @@ It depends on PySerial and  Ben Croston's RPi.GPIO which can be installed (if no
 $ sudo apt-get update
 $ sudo apt-get install python3-rpi.gpio
 $ sudo pip3 install pyserial
+$ nano /boot/cmdline.txt
+remove console=serial0,115200
 ```
 
 The file `sms.py` is both the library and a working example if read/executed:
