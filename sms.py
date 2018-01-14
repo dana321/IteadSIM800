@@ -10,10 +10,6 @@ GSM_ON=11
 GSM_RESET=12
 DATE_FMT='"%y/%m/%d,%H:%M:%S%z"'
 
-APN="giffgaff.com"
-APN_USERNAME="giffgaff"
-APN_PASSWORD="" # Leave blank
-
 BALANCE_USSD="*100#"
 
 # Balance: *100*7#
